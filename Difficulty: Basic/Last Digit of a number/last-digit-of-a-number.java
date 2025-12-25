@@ -1,12 +1,7 @@
 class Solution {
-    public static void utility(int n) {
-
-        // just complete below statement
+    public int lastDigit(int n) {
+        // Code here
         
-            int ans = Math.abs(n%10);
-            System.out.println(ans);
-
-           
-            
+        return Math.abs(n%10);
     }
 }
